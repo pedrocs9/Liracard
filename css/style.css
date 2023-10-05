@@ -1,5 +1,8 @@
 /* VARIABLES */
-
+:root{
+    --color-primario:rgb(9, 54, 108);
+    --color-secundario:rgb(137, 45, 44);
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,12 +12,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 
 }
-/* INDEX */
 
-/* ----------------------------------MEDIA QUERY---------------------------------------- */
+
+/* ----------------------------------MEDIA QUERY ---------------------------------------- */
 @media(max-width:320px){
+    /* ----------------------INDEX -------------------------- */
     #logo {
-        width: 150px;
+        width: 120px;
         height: auto;
         margin:5px 10px;
     }
@@ -82,7 +86,7 @@ body{
     .segundo-item-two a{
         font-size: 1.2em;
         font-weight: bold;
-        background-color: rgb(137, 45, 44);
+        background-color: var(--color-secundario);
         padding: 5px 5px;
         border-radius: 4px;
         color: white;
@@ -92,10 +96,78 @@ body{
         -o-border-radius: 4px;
         text-decoration: none;
     }
+    .carousel-inner{
+        height: 40vh;
+    }
+    /* ----------------------INDEX -------------------------- */
+
+    /* ----------------------EMPRESA -------------------------- */
+    .emp-primera-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    .emp-primera-section h3{
+        color: var(--color-primario);
+        padding: 4px 4px;
+        text-align: center;
+    }
+    .emp-primera-section p{
+        padding: 5px 10px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .emp-segunda-section{
+        padding: 8px 8px;
+    }
+    section .img-soldador{
+        background-image: url("../assets/img/soldador4.jpg");
+        width: 95%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        margin-bottom: 4vh;
+    }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin-left: 2vh;
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
+   
+    /* ----------------------FIN EMPRESA -------------------------- */
+
+    /* ---------------------- EQUIPAMIENTO -------------------------- */
+    .container-titulo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        
+        
+    }
+    .container-titulo h1{
+        text-align: center;
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .container-titulo p{
+        text-align: center;
+    }
+    /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     
     
 }
+
 @media(max-width:375px){
+   
+    /* ----------------------INDEX -------------------------- */
     #logo {
         width: 150px;
         height: auto;
@@ -165,7 +237,7 @@ body{
     .segundo-item-two a{
         font-size: 1.2em;
         font-weight: bold;
-        background-color: rgb(137, 45, 44);
+        background-color: var(--color-secundario);
         padding: 5px 5px;
         border-radius: 4px;
         color: white;
@@ -175,66 +247,448 @@ body{
         -o-border-radius: 4px;
         text-decoration: none;
     }
+    li a {
+        font-weight: bold;
+        color: var(--color-primario) !important;
+     
+    }
+    /* ----------------------FIN INDEX -------------------------- */
+
+    /* ----------------------EMPRESA -------------------------- */
+    .emp-primera-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    .emp-primera-section h3{
+        color: var(--color-primario);
+        padding: 4px 10px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .emp-primera-section p{
+        padding: 5px 12px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .emp-segunda-section{
+        padding: 0px 10px;
+    }
+    section .img-soldador{
+        background-image: url("../assets/img/soldador4.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        margin-bottom: 4vh;
+    }
+    /* ----------------------FIN EMPRESA -------------------------- */
+   
+}
+
+@media(max-width:425px){
+    /* ----------------------INDEX -------------------------- */
+    #logo {
+        width: 150px;
+        height: auto;
+        margin:5px 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+    .primera-parte h2{
+       display: none;
+    }
+    .primera-parte p{
+        display: none;
+    }
+    .primera-parte{
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../assets/img/soldador.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+    }
+    .segundo-item{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .segundo-item-one{
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-one h2{
+        font-size: 1.8em;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+    .segundo-item-one h3{
+        font-size: 1.3em;
+        margin-bottom: 1vh;
+        text-align: center;
+        
+    }
+    .segundo-item-one p{
+        display: none;
+    }
+    .segundo-item-two h3{
+        font-size: 1.8em;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .segundo-item-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-two a{
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: var(--color-secundario);
+        padding: 5px 5px;
+        border-radius: 4px;
+        color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        text-decoration: none;
+    }
+    li a {
+        font-weight: bold;
+        color: var(--color-primario) !important;
+     
+    }
+    /* ----------------------FIN INDEX -------------------------- */
+    /* ----------------------EMPRESA -------------------------- */
+    .emp-primera-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    .emp-primera-section h3{
+        color: var(--color-primario);
+        padding: 4px 10px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .emp-primera-section p{
+        padding: 5px 12px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .emp-segunda-section{
+        padding: 0px 10px;
+    }
+    section .img-soldador{
+        background-image: url("../assets/img/soldador4.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 40vh;
+        margin-bottom: 4vh;
+    }
+    /* ----------------------FIN EMPRESA -------------------------- */
+    
+}
+
+@media(max-width:768px){
+    /* ----------------------INDEX -------------------------- */
+    #logo {
+        width: 150px;
+        height: auto;
+        margin:5px 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+    .primera-parte h2{
+       display: none;
+    }
+    .primera-parte p{
+        display: none;
+    }
+    .primera-parte{
+        width: 100%;
+        height: 40vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../assets/img/soldador.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+    }
+    .segundo-item{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .segundo-item-one{
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-one h2{
+        font-size: 1.8em;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+    .segundo-item-one h3{
+        font-size: 1.3em;
+        margin-bottom: 1vh;
+        text-align: center;
+        
+    }
+    .segundo-item-one p{
+        display: none;
+    }
+    .segundo-item-two h3{
+        font-size: 1.8em;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .segundo-item-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-two a{
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: var(--color-secundario);
+        padding: 5px 5px;
+        border-radius: 4px;
+        color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        text-decoration: none;
+    }
+    li a {
+        font-weight: bold;
+        color: var(--color-primario) !important;
+     
+    }
+    
+    /* ----------------------FIN INDEX -------------------------- */
+
+    /* ----------------------EMPRESA -------------------------- */
+    
+    /* ----------------------FIN EMPRESA -------------------------- */
+    
+}
+
+@media(max-width:1024px){
+    /* ----------------------INDEX -------------------------- */
+    #logo {
+        width: 150px;
+        height: auto;
+        margin:5px 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+    .primera-parte h2{
+       display: none;
+    }
+    .primera-parte p{
+        display: none;
+    }
+    .primera-parte{
+        width: 100%;
+        height: 45vh;
+        
+    }
+    .segundo-item{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .segundo-item-one{
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-one h2{
+        font-size: 1.8em;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+    .segundo-item-one h3{
+        font-size: 1.3em;
+        margin-bottom: 1vh;
+        text-align: center;
+        
+    }
+    .segundo-item-one p{
+        display: none;
+    }
+    .segundo-item-two h3{
+        font-size: 1.8em;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .segundo-item-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-two a{
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: var(--color-secundario);
+        padding: 5px 5px;
+        border-radius: 4px;
+        color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        text-decoration: none;
+    }
+    li a {
+        font-weight: bold;
+        color: var(--color-primario) !important;
+     
+    }
+    /* ----------------------FIN INDEX -------------------------- */
+
+    /* ----------------------EMPRESA -------------------------- */
+    
+    /* ----------------------FIN EMPRESA -------------------------- */
+    
+    
+}
+@media(max-width:2560px){
+    /* ----------------------INDEX -------------------------- */
+    #logo {
+        width: 150px;
+        height: auto;
+        margin:5px 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+    .primera-parte h2{
+       display: none;
+    }
+    .primera-parte p{
+        display: none;
+    }
+    .primera-parte{
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../assets/img/soldador.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+    }
+    .segundo-item{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .segundo-item-one{
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-one h2{
+        font-size: 1.8em;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+    .segundo-item-one h3{
+        font-size: 1.3em;
+        margin-bottom: 1vh;
+        text-align: center;
+        
+    }
+    .segundo-item-one p{
+        display: none;
+    }
+    .segundo-item-two h3{
+        font-size: 1.8em;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .segundo-item-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-two a{
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: var(--color-secundario);
+        padding: 5px 5px;
+        border-radius: 4px;
+        color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        text-decoration: none;
+    }
+    li a {
+        font-weight: bold;
+        color: var(--color-primario) !important;
+     
+    }
+    .carrousel img{
+        background-size: cover;
+        background-position: center center;
+    }
+    .carousel-inner{
+        height: 80vh;
+    }
+    /* ----------------------FIN INDEX -------------------------- */
+
+    /* ----------------------EMPRESA -------------------------- */
+    
+    /* ----------------------FIN EMPRESA -------------------------- */
+    
+    
 }
 /* ----------------------------------FOOTER---------------------------------------- */
-footer{
-    background-image: url("../assets/img/bg-footer.jpg");
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 70vh;
-    margin-top: 2vh;
-    z-index: 1;
-}
-footer .container-footer{
-    z-index: 2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-}
-.container-footer h3{
-    color: white;
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 3vh;
-}
 
-.container-footer div{
-    margin-top: 10vh;
-}
-.container-footer a{
-    text-decoration: none;
-    color: white;
-    margin-bottom: 2vh;
-}
-.container-footer p{
-    color: white;
-}
-.sobre-footer{
-    display: flex;
-    flex-direction: column;
-}
-.color-rojo{
-    color: rgb(137, 45, 44);
-}
-footer .container-footer-iconos{
-    display: flex;
-    flex-direction: row;
-    margin-left: 0vh;
-}
-.container-footer-iconos img{
-    width: 40px;
-}
-.container-footer-iconos a{
-    margin-right: 3vh;
-}
-#footercito{
-    display: flex;
-    flex-direction: column;
-}
-.equip-footer{
-    display: flex;
-    flex-direction: column;
-}
