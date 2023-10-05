@@ -1,0 +1,240 @@
+/* VARIABLES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* INDEX */
+
+/* ----------------------------------MEDIA QUERY---------------------------------------- */
+@media(max-width:320px){
+    #logo {
+        width: 150px;
+        height: auto;
+        margin:5px 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+    .primera-parte h2{
+       display: none;
+    }
+    .primera-parte p{
+        display: none;
+    }
+    .primera-parte{
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../assets/img/soldador.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+    }
+    .segundo-item{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .segundo-item-one{
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-one h2{
+        font-size: 1.8em;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+    .segundo-item-one h3{
+        font-size: 1.3em;
+        margin-bottom: 1vh;
+        text-align: center;
+        
+    }
+    .segundo-item-one p{
+        display: none;
+    }
+    .segundo-item-two h3{
+        font-size: 1.8em;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .segundo-item-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-two a{
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: rgb(137, 45, 44);
+        padding: 5px 5px;
+        border-radius: 4px;
+        color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        text-decoration: none;
+    }
+    
+    
+}
+@media(max-width:375px){
+    #logo {
+        width: 150px;
+        height: auto;
+        margin:5px 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+    .primera-parte h2{
+       display: none;
+    }
+    .primera-parte p{
+        display: none;
+    }
+    .primera-parte{
+        width: 100%;
+        height: 50vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../assets/img/soldador.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+    }
+    .segundo-item{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .segundo-item-one{
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-one h2{
+        font-size: 1.8em;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+    .segundo-item-one h3{
+        font-size: 1.3em;
+        margin-bottom: 1vh;
+        text-align: center;
+        
+    }
+    .segundo-item-one p{
+        display: none;
+    }
+    .segundo-item-two h3{
+        font-size: 1.8em;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .segundo-item-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-two a{
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: rgb(137, 45, 44);
+        padding: 5px 5px;
+        border-radius: 4px;
+        color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        text-decoration: none;
+    }
+}
+/* ----------------------------------FOOTER---------------------------------------- */
+footer{
+    background-image: url("../assets/img/bg-footer.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    margin-top: 2vh;
+    z-index: 1;
+}
+footer .container-footer{
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.container-footer h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 3vh;
+}
+
+.container-footer div{
+    margin-top: 10vh;
+}
+.container-footer a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 2vh;
+}
+.container-footer p{
+    color: white;
+}
+.sobre-footer{
+    display: flex;
+    flex-direction: column;
+}
+.color-rojo{
+    color: rgb(137, 45, 44);
+}
+footer .container-footer-iconos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0vh;
+}
+.container-footer-iconos img{
+    width: 40px;
+}
+.container-footer-iconos a{
+    margin-right: 3vh;
+}
+#footercito{
+    display: flex;
+    flex-direction: column;
+}
+.equip-footer{
+    display: flex;
+    flex-direction: column;
+}
