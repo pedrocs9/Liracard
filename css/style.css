@@ -15,7 +15,7 @@ body{
 
 
 /* ----------------------------------MEDIA QUERY ---------------------------------------- */
-@media(max-width:320px){
+@media (max-width:320px){
     /* ----------------------INDEX -------------------------- */
     #logo {
         width: 120px;
@@ -50,30 +50,38 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 19vh;
     }
     .segundo-item-one{
         width: 100%;
-        margin-bottom: 8vh;
+        margin-bottom: 18vh;
     }
     .segundo-item-one h2{
         font-size: 1.8em;
         margin-bottom: 1vh;
         text-align: center;
+        color:var(--color-primario);
     }
     .segundo-item-one h3{
         font-size: 1.3em;
         margin-bottom: 1vh;
         text-align: center;
+        color:var(--color-secundario)
         
     }
     .segundo-item-one p{
         display: none;
     }
     .segundo-item-two h3{
-        font-size: 1.8em;
-        font-weight: bold;
+        font-size: 1.0em;
         text-align: center;
+        
+    }
+    .segundo-item-two p{
+        font-size: 1.3em;
+        text-align: center;
+        padding: 0px 8px;
+        font-weight: bold;
         
     }
     .segundo-item-two{
@@ -81,13 +89,14 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 8vh;
+        margin-bottom: 14vh;
+        
     }
+    
     .segundo-item-two a{
-        font-size: 1.2em;
-        font-weight: bold;
-        background-color: var(--color-secundario);
-        padding: 5px 5px;
+        font-size: 0.9em;
+        background-color: var(--color-primario);
+        padding: 7px 7px;
         border-radius: 4px;
         color: white;
         -webkit-border-radius: 4px;
@@ -97,7 +106,20 @@ body{
         text-decoration: none;
     }
     .carousel-inner{
-        height: 40vh;
+        height: 33vh;
+    }
+    li a {
+        font-weight: bold;
+        color: var(--color-primario) !important;
+     
+    }
+    .carrousel{
+        margin-top: 6vh;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     /* ----------------------INDEX -------------------------- */
 
@@ -130,17 +152,7 @@ body{
         height: 40vh;
         margin-bottom: 4vh;
     }
-    .equipamiento-card{
-        display: flex;
-        flex-direction: column;
-        gap: 2vh;
-        margin-left: 2vh;
-    }
-    .card-text{
-        text-align: center;
-        color: var(--color-secundario);
-        font-weight: bold;
-    }
+    
    
     /* ----------------------FIN EMPRESA -------------------------- */
 
@@ -160,12 +172,22 @@ body{
     .container-titulo p{
         text-align: center;
     }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin-left: 2vh;
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     
     
 }
-
-@media(max-width:375px){
+@media (min-width:321px) and (max-width:375px){
    
     /* ----------------------INDEX -------------------------- */
     #logo {
@@ -201,30 +223,36 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 13vh;
     }
     .segundo-item-one{
         width: 100%;
-        margin-bottom: 8vh;
+        margin-bottom: 20vh;
     }
     .segundo-item-one h2{
         font-size: 1.8em;
         margin-bottom: 1vh;
         text-align: center;
+        color:var(--color-primario);
     }
     .segundo-item-one h3{
         font-size: 1.3em;
-        margin-bottom: 1vh;
         text-align: center;
+        color:var(--color-secundario);
         
     }
     .segundo-item-one p{
         display: none;
     }
     .segundo-item-two h3{
-        font-size: 1.8em;
-        font-weight: bold;
+        font-size: 1.1em;
         text-align: center;
+        
+    }
+    .segundo-item-two p{
+        font-size: 1.6em;
+        text-align: center;
+        font-weight: bold;
         
     }
     .segundo-item-two{
@@ -235,10 +263,9 @@ body{
         margin-bottom: 8vh;
     }
     .segundo-item-two a{
-        font-size: 1.2em;
-        font-weight: bold;
-        background-color: var(--color-secundario);
-        padding: 5px 5px;
+        font-size: 1.1em;
+        background-color: var(--color-primario);
+        padding: 7px 7px;
         border-radius: 4px;
         color: white;
         -webkit-border-radius: 4px;
@@ -251,6 +278,11 @@ body{
         font-weight: bold;
         color: var(--color-primario) !important;
      
+    }
+    .carrousel{
+        padding: 0px 10px;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
     /* ----------------------FIN INDEX -------------------------- */
 
@@ -285,10 +317,37 @@ body{
         margin-bottom: 4vh;
     }
     /* ----------------------FIN EMPRESA -------------------------- */
+    /* ---------------------- EQUIPAMIENTO -------------------------- */
+    .container-titulo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        
+        
+    }
+    .container-titulo h1{
+        text-align: center;
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .container-titulo p{
+        text-align: center;
+    }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin-left: 6vh;
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
+    /* ----------------------FIN EQUIPAMIENTO -------------------------- */
    
 }
-
-@media(max-width:425px){
+@media (min-width:376px) and (max-width:425px){
     /* ----------------------INDEX -------------------------- */
     #logo {
         width: 150px;
@@ -323,31 +382,39 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 11vh;
     }
     .segundo-item-one{
         width: 100%;
-        margin-bottom: 8vh;
+        margin-bottom: 20vh;
     }
     .segundo-item-one h2{
         font-size: 1.8em;
         margin-bottom: 1vh;
         text-align: center;
+        color: var(--color-primario);
     }
     .segundo-item-one h3{
         font-size: 1.3em;
         margin-bottom: 1vh;
         text-align: center;
+        color: var(--color-secundario);
         
     }
     .segundo-item-one p{
         display: none;
     }
-    .segundo-item-two h3{
+    
+    .segundo-item-two p{
         font-size: 1.8em;
         font-weight: bold;
         text-align: center;
         
+    }
+    .segundo-item-two h3{
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 3vh;
     }
     .segundo-item-two{
         display: flex;
@@ -357,10 +424,9 @@ body{
         margin-bottom: 8vh;
     }
     .segundo-item-two a{
-        font-size: 1.2em;
-        font-weight: bold;
+        font-size: 1.1em;
         background-color: var(--color-secundario);
-        padding: 5px 5px;
+        padding: 7px 7px;
         border-radius: 4px;
         color: white;
         -webkit-border-radius: 4px;
@@ -373,6 +439,9 @@ body{
         font-weight: bold;
         color: var(--color-primario) !important;
      
+    }
+    .carrousel{
+        padding: 0px 10px;
     }
     /* ----------------------FIN INDEX -------------------------- */
     /* ----------------------EMPRESA -------------------------- */
@@ -406,10 +475,40 @@ body{
         margin-bottom: 4vh;
     }
     /* ----------------------FIN EMPRESA -------------------------- */
+    /* ---------------------- EQUIPAMIENTO -------------------------- */
+    .container-titulo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        
+        
+    }
+    .container-titulo h1{
+        text-align: center;
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .container-titulo p{
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+       
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
+    /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     
 }
+@media (min-width:426px) and (max-width:768px){
 
-@media(max-width:768px){
     /* ----------------------INDEX -------------------------- */
     #logo {
         width: 150px;
@@ -444,32 +543,41 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 25vh;
     }
     .segundo-item-one{
         width: 100%;
-        margin-bottom: 8vh;
+        margin-bottom: 40vh;
     }
     .segundo-item-one h2{
-        font-size: 1.8em;
+        font-size: 2.4em;
         margin-bottom: 1vh;
+        font-weight: bold;
         text-align: center;
+        color: var(--color-primario);
     }
     .segundo-item-one h3{
-        font-size: 1.3em;
+        font-size: 2em;
         margin-bottom: 1vh;
         text-align: center;
+        color: var(--color-secundario);
         
     }
     .segundo-item-one p{
         display: none;
     }
-    .segundo-item-two h3{
-        font-size: 1.8em;
+    .segundo-item-two p{
+        font-size: 2em;
         font-weight: bold;
         text-align: center;
         
     }
+    .segundo-item-two h3{
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    
     .segundo-item-two{
         display: flex;
         flex-direction: column;
@@ -478,10 +586,9 @@ body{
         margin-bottom: 8vh;
     }
     .segundo-item-two a{
-        font-size: 1.2em;
-        font-weight: bold;
-        background-color: var(--color-secundario);
-        padding: 5px 5px;
+        font-size: 1.4em;
+        background-color: var(--color-primario);
+        padding: 5px 7px;
         border-radius: 4px;
         color: white;
         -webkit-border-radius: 4px;
@@ -495,16 +602,82 @@ body{
         color: var(--color-primario) !important;
      
     }
+    .carrousel{
+        padding: 10px 30px;
+    }
+    .carousel-inner{
+        height: 70vh;
+    }
     
     /* ----------------------FIN INDEX -------------------------- */
 
     /* ----------------------EMPRESA -------------------------- */
     
+    .emp-primera-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        padding: 0px 10px;
+    }
+    .emp-primera-section h3{
+        color: var(--color-primario);
+        padding: 4px 15px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .emp-primera-section p{
+        padding: 5px 15px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .emp-segunda-section{
+        padding: 0px 10px;
+    }
+    section .img-soldador{
+        background-image: url("../assets/img/soldador4.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 70vh;
+        margin-bottom: 10vh;
+    }
     /* ----------------------FIN EMPRESA -------------------------- */
+    /* ---------------------- EQUIPAMIENTO -------------------------- */
+    .container-titulo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        
+        
+    }
+    .container-titulo h1{
+        text-align: center;
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .container-titulo p{
+        text-align: center;
+        padding: 0px  100px;
+
+    }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2vh;
+        margin-left: 6vh;
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
+    /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     
 }
-
-@media(max-width:1024px){
+@media (min-width:769px) and (max-width:1024px){
     /* ----------------------INDEX -------------------------- */
     #logo {
         width: 150px;
@@ -530,32 +703,42 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 35vh;
     }
     .segundo-item-one{
         width: 100%;
-        margin-bottom: 8vh;
+        margin-bottom: 40vh;
     }
     .segundo-item-one h2{
-        font-size: 1.8em;
+        font-size: 3em;
         margin-bottom: 1vh;
         text-align: center;
+        font-weight: bold;
+        color: var(--color-primario);
     }
     .segundo-item-one h3{
-        font-size: 1.3em;
+        font-size: 2.5em;
         margin-bottom: 1vh;
         text-align: center;
+        color: var(--color-secundario);
         
     }
     .segundo-item-one p{
         display: none;
     }
-    .segundo-item-two h3{
-        font-size: 1.8em;
+    .segundo-item-two p{
+        font-size: 2.3em;
         font-weight: bold;
         text-align: center;
         
     }
+    .segundo-item-two h3{
+        font-size: 1.8em;
+        text-align: center;
+        margin-bottom: 3vh;
+        
+    }
+   
     .segundo-item-two{
         display: flex;
         flex-direction: column;
@@ -564,10 +747,10 @@ body{
         margin-bottom: 8vh;
     }
     .segundo-item-two a{
-        font-size: 1.2em;
+        font-size: 1.6em;
+        background-color: var(--color-primario);
         font-weight: bold;
-        background-color: var(--color-secundario);
-        padding: 5px 5px;
+        padding: 5px 9px;
         border-radius: 4px;
         color: white;
         -webkit-border-radius: 4px;
@@ -581,18 +764,257 @@ body{
         color: var(--color-primario) !important;
      
     }
+    .carrousel{
+        padding: 0px 30px;
+        margin-top: 2vh;
+    }
+    .carousel-inner{
+        height: 80vh;
+    }
     /* ----------------------FIN INDEX -------------------------- */
 
+    /* ---------------------- NAV -------------------------- */
+    .nav-link{
+        font-size: 1.4em !important;
+        font-weight: bold!important;
+    }
+    /* ----------------------FIN NAV-------------------------- */
+
+
     /* ----------------------EMPRESA -------------------------- */
-    
+    .emp-primera-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        padding: 0px 10px;
+    }
+    .emp-primera-section h3{
+        color: var(--color-primario);
+        padding: 4px 15px;
+        text-align: center;
+        font-size: 2.3em;
+    }
+    .emp-primera-section p{
+        padding: 5px 15px;
+        text-align: center;
+        font-size: 1.4.3em;
+    }
+    .emp-segunda-section{
+        padding: 0px 10px;
+    }
+    section .img-soldador{
+        background-image: url("../assets/img/soldador4.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 70vh;
+        margin-bottom: 10vh;
+    }
     /* ----------------------FIN EMPRESA -------------------------- */
+    /* ---------------------- EQUIPAMIENTO -------------------------- */
+    .container-titulo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        
+        
+    }
+    .container-titulo h1{
+        text-align: center;
+        color: var(--color-primario);
+        font-weight: bold;
+        font-size: 3em;
+    }
+    .container-titulo p{
+        text-align: center;
+        padding: 0px  100px;
+        font-size: 2em;
+
+    }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2vh;
+        margin-left: 6vh;
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
+    /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     
     
 }
-@media(max-width:2560px){
+@media (min-width:1025px) and (max-width:1440px){
     /* ----------------------INDEX -------------------------- */
     #logo {
         width: 150px;
+        height: auto;
+        margin:5px 10px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    
+    .primera-parte h2{
+       display: none;
+    }
+    .primera-parte p{
+        display: none;
+    }
+    .primera-parte{
+        width: 100%;
+        height: 45vh;
+        
+    }
+    .segundo-item{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 33vh;
+    }
+    .segundo-item-one{
+        width: 100%;
+        margin-bottom: 40vh;
+    }
+    .segundo-item-one h2{
+        font-size: 4em;
+        margin-bottom: 1vh;
+        text-align: center;
+        font-weight: bold;
+        color: var(--color-primario);
+    }
+    .segundo-item-one h3{
+        font-size: 3em;
+        margin-bottom: 1vh;
+        text-align: center;
+        color: var(--color-secundario);
+    }
+    .segundo-item-one p{
+        display: none;
+    }
+    .segundo-item-two p{
+        font-size: 2.5em;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .segundo-item-two h3{
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    .segundo-item-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8vh;
+    }
+    .segundo-item-two a{
+        font-size: 2em;
+        font-weight: bold;
+        background-color: var(--color-primario);
+        padding: 5px 10px;
+        border-radius: 4px;
+        color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        text-decoration: none;
+    }
+    li a {
+        font-weight: bold;
+        color: var(--color-primario) !important;
+     
+    }
+    .carrousel{
+        padding: 0px 50px;
+        margin-top: 3vh;
+    }
+    .carousel-inner{
+        height: 80vh;
+    }
+    /* ----------------------FIN INDEX -------------------------- */
+    /* ---------------------- NAV -------------------------- */
+    .nav-link{
+        font-size: 1.7em !important;
+        font-weight: bold!important;
+    }
+    /* ----------------------FIN NAV-------------------------- */
+
+    /* ----------------------EMPRESA -------------------------- */
+    .emp-primera-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        padding: 0px 10px;
+    }
+    .emp-primera-section h3{
+        color: var(--color-primario);
+        padding: 4px 15px;
+        text-align: center;
+        font-size: 2.3em;
+    }
+    .emp-primera-section p{
+        padding: 5px 15px;
+        text-align: center;
+        font-size: 1.4.3em;
+    }
+    .emp-segunda-section{
+        padding: 0px 10px;
+    }
+    section .img-soldador{
+        background-image: url("../assets/img/soldador4.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 70vh;
+        margin-bottom: 10vh;
+    }
+    /* ----------------------FIN EMPRESA -------------------------- */
+    /* ---------------------- EQUIPAMIENTO -------------------------- */
+    .container-titulo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        
+        
+    }
+    .container-titulo h1{
+        text-align: center;
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .container-titulo p{
+        text-align: center;
+    }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin-left: 6vh;
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
+    /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+    
+    
+}
+@media (min-width:1441px) and (max-width:2560px){
+    /* ----------------------INDEX -------------------------- */
+    #logo {
+        width: 380px;
         height: auto;
         margin:5px 10px;
     }
@@ -624,30 +1046,40 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 40vh;
     }
     .segundo-item-one{
         width: 100%;
-        margin-bottom: 8vh;
+        margin-bottom: 36vh;
     }
     .segundo-item-one h2{
-        font-size: 1.8em;
+        font-size: 7em;
         margin-bottom: 1vh;
+        font-weight: bold;
         text-align: center;
+        color: var(--color-primario);
     }
+  
     .segundo-item-one h3{
-        font-size: 1.3em;
+        font-size: 6em;
         margin-bottom: 1vh;
         text-align: center;
+        color: var(--color-secundario);
         
     }
     .segundo-item-one p{
         display: none;
     }
-    .segundo-item-two h3{
-        font-size: 1.8em;
+    .segundo-item-two p{
+        font-size: 5em;
         font-weight: bold;
         text-align: center;
+        
+    }
+    .segundo-item-two h3{
+        font-size: 4em;
+        text-align: center;
+        margin-bottom: 3vh;
         
     }
     .segundo-item-two{
@@ -658,10 +1090,10 @@ body{
         margin-bottom: 8vh;
     }
     .segundo-item-two a{
-        font-size: 1.2em;
+        font-size: 5em;
         font-weight: bold;
-        background-color: var(--color-secundario);
-        padding: 5px 5px;
+        background-color: var(--color-primario);
+        padding: 5px 14px;
         border-radius: 4px;
         color: white;
         -webkit-border-radius: 4px;
@@ -679,12 +1111,53 @@ body{
         background-size: cover;
         background-position: center center;
     }
+    .carrousel{
+        padding: 0px 50px;
+        margin-top: 3vh;
+    }
+    .carousel-inner{
+        height: 80vh;
+    }
     
     /* ----------------------FIN INDEX -------------------------- */
+     /* ---------------------- NAV -------------------------- */
+     .nav-link{
+        font-size: 3.4em !important;
+        font-weight: bold!important;
+    }
+    /* ----------------------FIN NAV-------------------------- */
 
     /* ----------------------EMPRESA -------------------------- */
     
     /* ----------------------FIN EMPRESA -------------------------- */
+    /* ---------------------- EQUIPAMIENTO -------------------------- */
+    .container-titulo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8vh;
+        
+        
+    }
+    .container-titulo h1{
+        text-align: center;
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .container-titulo p{
+        text-align: center;
+    }
+    .equipamiento-card{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        margin-left: 6vh;
+    }
+    .card-text{
+        text-align: center;
+        color: var(--color-secundario);
+        font-weight: bold;
+    }
+    /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     
     
 }
