@@ -136,12 +136,15 @@ body{
         text-align: center;
     }
     .emp-primera-section p{
-        padding: 5px 10px;
+        padding: 5px 25px;
         text-align: center;
         font-size: 0.8em;
     }
     .emp-segunda-section{
-        padding: 8px 8px;
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -184,6 +187,21 @@ body{
         font-weight: bold;
     }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+
+    /* ----------------------COMO LLEGAR -------------------------- */
+    .titulo1{
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .titulo2{
+        color: var(--color-secundario);
+        font-size: 1em;
+        padding: 0px 16px;
+    }
+    .mapa{
+        padding: 0px 5px;
+    }
+    /* ----------------------FIN COMO LLEGAR -------------------------- */
     
     
 }
@@ -295,17 +313,17 @@ body{
     }
     .emp-primera-section h3{
         color: var(--color-primario);
-        padding: 4px 10px;
+        padding: 4px 8px;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     .emp-primera-section p{
-        padding: 5px 12px;
+        padding: 0px 33px;
         text-align: center;
         font-size: 0.8em;
     }
     .emp-segunda-section{
-        padding: 0px 10px;
+        padding: 0px 33px;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -345,6 +363,22 @@ body{
         font-weight: bold;
     }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+    /* ----------------------COMO LLEGAR -------------------------- */
+    .titulo1{
+        color: var(--color-primario);
+        font-weight: bold;
+    }
+    .titulo2{
+        color: var(--color-secundario);
+        font-size: 1em;
+        padding: 0px 18px;
+    }
+    .mapa{
+        padding: 0px 5px;
+        width: 90%;
+        height: 45vh;
+    }
+    /* ----------------------FIN COMO LLEGAR -------------------------- */
    
 }
 @media (min-width:376px) and (max-width:425px){
@@ -453,17 +487,17 @@ body{
     }
     .emp-primera-section h3{
         color: var(--color-primario);
-        padding: 4px 10px;
+        padding: 0px 25px;
         text-align: center;
         font-size: 1.5em;
     }
     .emp-primera-section p{
-        padding: 5px 12px;
+        padding: 5px 35px;
         text-align: center;
         font-size: 0.8em;
     }
     .emp-segunda-section{
-        padding: 0px 10px;
+        padding: 0px 40px;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -505,6 +539,23 @@ body{
         font-weight: bold;
     }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+    /* ----------------------COMO LLEGAR -------------------------- */
+    .titulo1{
+        color: var(--color-primario);
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    .titulo2{
+        color: var(--color-secundario);
+        font-size: 1em;
+        padding: 0px 20px;
+    }
+    .mapa{
+        padding: 0px 5px;
+        width: 90%;
+        height: 45vh;
+    }
+    /* ----------------------FIN COMO LLEGAR -------------------------- */
     
 }
 @media (min-width:426px) and (max-width:768px){
@@ -617,22 +668,26 @@ body{
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 5vh;
+        margin-top: 20vh;
         padding: 0px 10px;
     }
     .emp-primera-section h3{
         color: var(--color-primario);
-        padding: 4px 15px;
+        padding: 0px 40px;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.8em;
+        margin-bottom: 2vh;
     }
     .emp-primera-section p{
-        padding: 5px 15px;
+        padding: 0px 60px;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .emp-segunda-section{
-        padding: 0px 10px;
+        padding: 0px 50px;
+        margin-top: 34vh;
+        display: flex;
+        justify-content: center;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -642,6 +697,11 @@ body{
         background-position: center center;
         height: 70vh;
         margin-bottom: 10vh;
+    }
+    section .card{
+        width: 90%;
+        height: 30vh;
+       
     }
     /* ----------------------FIN EMPRESA -------------------------- */
     /* ---------------------- EQUIPAMIENTO -------------------------- */
@@ -675,6 +735,26 @@ body{
         font-weight: bold;
     }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+    /* ----------------------COMO LLEGAR -------------------------- */
+    .titulo1{
+        color: var(--color-primario);
+        font-weight: bold;
+        font-size: 1.8em;
+        margin-top: 6vh;
+    }
+    .titulo2{
+        color: var(--color-secundario);
+        font-size: 1em;
+        padding: 0px 20px;
+        
+    }
+    .mapa{
+        padding: 0px 5px;
+        width: 80%;
+        height: 60vh;
+        margin:13vh;
+    }
+    /* ----------------------FIN COMO LLEGAR -------------------------- */
     
 }
 @media (min-width:769px) and (max-width:1024px){
@@ -786,7 +866,7 @@ body{
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 5vh;
+        margin-top: 22vh;
         padding: 0px 10px;
     }
     .emp-primera-section h3{
@@ -798,10 +878,11 @@ body{
     .emp-primera-section p{
         padding: 5px 15px;
         text-align: center;
-        font-size: 1.4.3em;
+        font-size: 1.4em;
+        margin-bottom: 34vh;
     }
     .emp-segunda-section{
-        padding: 0px 10px;
+        padding: 0px 60px;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -846,6 +927,26 @@ body{
         font-weight: bold;
     }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+    /* ----------------------COMO LLEGAR -------------------------- */
+    .titulo1{
+        color: var(--color-primario);
+        font-weight: bold;
+        font-size: 2.5em;
+        margin-top: 6vh;
+    }
+    .titulo2{
+        color: var(--color-secundario);
+        font-size: 1.4em;
+        padding: 0px 20px;
+        
+    }
+    .mapa{
+        padding: 0px 5px;
+        width: 80%;
+        height: 60vh;
+        margin:13vh;
+    }
+    /* ----------------------FIN COMO LLEGAR -------------------------- */
     
     
 }
@@ -943,7 +1044,7 @@ body{
     /* ----------------------FIN INDEX -------------------------- */
     /* ---------------------- NAV -------------------------- */
     .nav-link{
-        font-size: 1.7em !important;
+        font-size: 1.8em !important;
         font-weight: bold!important;
     }
     /* ----------------------FIN NAV-------------------------- */
@@ -953,22 +1054,24 @@ body{
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 5vh;
-        padding: 0px 10px;
+        margin-top: 25vh;
+        padding: 0px 50px;
     }
     .emp-primera-section h3{
         color: var(--color-primario);
-        padding: 4px 15px;
+        padding: 0px 90px;
         text-align: center;
-        font-size: 2.3em;
+        font-size: 3em;
+        font-weight: bold;
     }
     .emp-primera-section p{
-        padding: 5px 15px;
+        padding: 0px 70px;
         text-align: center;
-        font-size: 1.4.3em;
+        font-size: 1.4em;
     }
     .emp-segunda-section{
-        padding: 0px 10px;
+        padding: 0px 80px;
+        margin-top: 40vh;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -984,7 +1087,8 @@ body{
     .container-titulo{
         display: flex;
         flex-direction: column;
-        margin-top: 8vh;
+        margin-top: 13vh;
+        padding: 0px 120px;
         
         
     }
@@ -992,14 +1096,17 @@ body{
         text-align: center;
         color: var(--color-primario);
         font-weight: bold;
+        font-size: 3.5em;
     }
     .container-titulo p{
         text-align: center;
+        font-size: 2em;
     }
     .equipamiento-card{
         display: flex;
-        flex-direction: column;
-        gap: 2vh;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3vh;
         margin-left: 6vh;
     }
     .card-text{
@@ -1007,7 +1114,30 @@ body{
         color: var(--color-secundario);
         font-weight: bold;
     }
+    .card{
+        width: 24rem;
+    }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+    /* ----------------------COMO LLEGAR -------------------------- */
+    .titulo1{
+        color: var(--color-primario);
+        font-weight: bold;
+        font-size: 3.8em;
+        margin-top: 6vh;
+    }
+    .titulo2{
+        color: var(--color-secundario);
+        font-size: 2em;
+        padding: 0px 20px;
+        
+    }
+    .mapa{
+        padding: 0px 5px;
+        width: 80%;
+        height: 60vh;
+        margin:13vh;
+    }
+    /* ----------------------FIN COMO LLEGAR -------------------------- */
     
     
 }
@@ -1046,7 +1176,7 @@ body{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin-top: 40vh;
+        margin-top: 30vh;
     }
     .segundo-item-one{
         width: 100%;
@@ -1124,17 +1254,51 @@ body{
      .nav-link{
         font-size: 3.4em !important;
         font-weight: bold!important;
+        margin-right: 1vh;
+
     }
     /* ----------------------FIN NAV-------------------------- */
 
     /* ----------------------EMPRESA -------------------------- */
-    
+    .emp-primera-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vh;
+        padding: 0px 120px;
+    }
+    .emp-primera-section h3{
+        color: var(--color-primario);
+        padding: 0px 90px;
+        text-align: center;
+        font-size: 6em;
+        font-weight: bold;
+    }
+    .emp-primera-section p{
+        padding: 0px 90px;
+        text-align: center;
+        font-size: 3.6em;
+    }
+    .emp-segunda-section{
+        padding: 0px 150px;
+        margin-top: 40vh;
+    }
+    section .img-soldador{
+        background-image: url("../assets/img/soldador4.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 70vh;
+        margin-bottom: 10vh;
+    }
     /* ----------------------FIN EMPRESA -------------------------- */
     /* ---------------------- EQUIPAMIENTO -------------------------- */
     .container-titulo{
         display: flex;
         flex-direction: column;
-        margin-top: 8vh;
+        margin-top: 13vh;
+        padding: 0px 135px;
         
         
     }
@@ -1142,14 +1306,17 @@ body{
         text-align: center;
         color: var(--color-primario);
         font-weight: bold;
+        font-size: 7.5em;
     }
     .container-titulo p{
         text-align: center;
+        font-size: 3em;
     }
     .equipamiento-card{
         display: flex;
-        flex-direction: column;
-        gap: 2vh;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3vh;
         margin-left: 6vh;
     }
     .card-text{
@@ -1157,7 +1324,30 @@ body{
         color: var(--color-secundario);
         font-weight: bold;
     }
+    .card{
+        width: 45rem;
+    }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
+    /* ----------------------COMO LLEGAR -------------------------- */
+    .titulo1{
+        color: var(--color-primario);
+        font-weight: bold;
+        font-size: 6.4em;
+        margin-top: 6vh;
+    }
+    .titulo2{
+        color: var(--color-secundario);
+        font-size: 3.5em;
+        padding: 0px 20px;
+        
+    }
+    .mapa{
+        padding: 0px 5px;
+        width: 80%;
+        height: 70vh;
+        margin:11vh;
+    }
+    /* ----------------------FIN COMO LLEGAR -------------------------- */
     
     
 }
