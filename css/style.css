@@ -220,9 +220,7 @@ body{
         display: flex;
         flex-direction: column;
     }
-    .contact{
-        margin-left: 10vh;
-    }
+    
  
     #comentario{
         margin-bottom: 1vh;
@@ -231,6 +229,12 @@ body{
         background-color: var(--color-primario);
         color: white;
     }
+    .containter-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     
   
     
@@ -247,6 +251,7 @@ body{
         height: auto;
         margin:5px 10px;
     }
+  
     .navbar{
         width: 100%;
     }
@@ -455,6 +460,7 @@ body{
         height: auto;
         margin:5px 10px;
     }
+   
     .navbar{
         width: 100%;
     }
@@ -667,6 +673,7 @@ body{
         height: auto;
         margin:5px 10px;
     }
+  
     .navbar{
         width: 100%;
     }
@@ -877,9 +884,7 @@ body{
         display: flex;
         flex-direction: column;
     }
-    .contact{
-        margin-left: 40vh;
-    }
+   
  
     #comentario{
         margin-bottom: 1vh;
@@ -887,6 +892,11 @@ body{
     #btn_enviar{
         background-color: var(--color-primario);
         color: white;
+    }
+    .container-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
   
@@ -901,6 +911,14 @@ body{
         width: 150px;
         height: auto;
         margin:5px 10px;
+    }
+    .navbarcito{
+        width: 100%;
+        position: fixed;
+        top: 0; 
+        z-index: 10; 
+        background-color: white;   
+        margin-bottom: 8vh;
     }
     .navbar{
         width: 100%;
@@ -993,7 +1011,7 @@ body{
 
     /* ---------------------- NAV -------------------------- */
     .nav-link{
-        font-size: 1.4em !important;
+        font-size: 1.2em !important;
         font-weight: bold!important;
     }
     /* ----------------------FIN NAV-------------------------- */
@@ -1137,6 +1155,14 @@ body{
         height: auto;
         margin:5px 10px;
     }
+    .navbarcito{
+        width: 100%;
+        position: fixed;
+        top: 0; 
+        z-index: 10; 
+        background-color: white;   
+        margin-bottom: 8vh;
+    }
     .navbar{
         width: 100%;
     }
@@ -1224,7 +1250,7 @@ body{
     /* ----------------------FIN INDEX -------------------------- */
     /* ---------------------- NAV -------------------------- */
     .nav-link{
-        font-size: 1.8em !important;
+        font-size: 1.2em !important;
         font-weight: bold!important;
     }
     /* ----------------------FIN NAV-------------------------- */
@@ -1251,7 +1277,7 @@ body{
     }
     .emp-segunda-section{
         padding: 0px 80px;
-        margin-top: 40vh;
+        margin-top: 30vh;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -1295,7 +1321,7 @@ body{
         font-weight: bold;
     }
     .card{
-        width: 24rem;
+        width: 69rem;
     }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     /* ----------------------COMO LLEGAR -------------------------- */
@@ -1321,22 +1347,26 @@ body{
     /* ---------------------- CONTACTO -------------------------- */
     .contacto-titulo-1{
         color: var(--color-primario);
+        font-size: 4em;
+        font-weight: bold;
     }
     .contacto-titulo-2{
-        padding: 0vh 4vh;
+        padding: 0vh 20vh;
+        font-size: 2em;
         color: var(--color-secundario);
     }
     form input{
         margin-bottom: 1vh;
+        padding: 5px 5px;
 
     }
     #formulario_{
-        width: 36vh;
+        width: 66vh;
         display: flex;
         flex-direction: column;
     }
     .contact{
-        margin-left: 10vh;
+        margin-left: 40vh;
     }
  
     #comentario{
@@ -1347,22 +1377,35 @@ body{
         color: white;
     }
     
-  
+    .titulo3{
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    .titulo4{
+        font-size: 1.7em; 
+    }
     
    
     /* ----------------------FIN CONTACTO -------------------------- */
     
     
+    
 }
-@media (min-width:1441px) and (max-width:2560px){
+@media (min-width:1441px){
     /* ----------------------INDEX -------------------------- */
     #logo {
-        width: 380px;
+        width: 180px;
         height: auto;
-        margin:5px 10px;
+        margin:5px 30px;
     }
-    .navbar{
+   
+    .navbarcito{
         width: 100%;
+        position: fixed;
+        top: 0; 
+        z-index: 10; 
+        background-color: white;   
+        margin-bottom: 8vh;
     }
     
     .primera-parte h2{
@@ -1396,7 +1439,7 @@ body{
         margin-bottom: 36vh;
     }
     .segundo-item-one h2{
-        font-size: 7em;
+        font-size: 4em;
         margin-bottom: 1vh;
         font-weight: bold;
         text-align: center;
@@ -1404,7 +1447,7 @@ body{
     }
   
     .segundo-item-one h3{
-        font-size: 6em;
+        font-size: 3em;
         margin-bottom: 1vh;
         text-align: center;
         color: var(--color-secundario);
@@ -1414,15 +1457,15 @@ body{
         display: none;
     }
     .segundo-item-two p{
-        font-size: 5em;
+        font-size: 3em;
         font-weight: bold;
         text-align: center;
         
     }
     .segundo-item-two h3{
-        font-size: 4em;
+        font-size: 2em;
         text-align: center;
-        margin-bottom: 3vh;
+        margin-bottom: 4vh;
         
     }
     .segundo-item-two{
@@ -1433,10 +1476,10 @@ body{
         margin-bottom: 8vh;
     }
     .segundo-item-two a{
-        font-size: 5em;
+        font-size: 2em;
         font-weight: bold;
         background-color: var(--color-primario);
-        padding: 5px 14px;
+        padding: 5px 20px;
         border-radius: 4px;
         color: white;
         -webkit-border-radius: 4px;
@@ -1444,6 +1487,12 @@ body{
         -ms-border-radius: 4px;
         -o-border-radius: 4px;
         text-decoration: none;
+    }
+    .segundo-item-two a:hover{
+       background-color: white;
+       color:var(--color-primario);
+       border:solid 2px var(--color-primario);
+       
     }
     li a {
         font-weight: bold;
@@ -1455,8 +1504,8 @@ body{
         background-position: center center;
     }
     .carrousel{
-        padding: 0px 50px;
-        margin-top: 3vh;
+        padding: 10px 200px;
+        margin-top: 15vh;
     }
     .carousel-inner{
         height: 80vh;
@@ -1465,7 +1514,7 @@ body{
     /* ----------------------FIN INDEX -------------------------- */
      /* ---------------------- NAV -------------------------- */
      .nav-link{
-        font-size: 3.4em !important;
+        font-size: 1.3em !important;
         font-weight: bold!important;
         margin-right: 1vh;
 
@@ -1477,24 +1526,27 @@ body{
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 25vh;
+        justify-content: center;
+        margin-top: 23vh;
         padding: 0px 120px;
     }
     .emp-primera-section h3{
         color: var(--color-primario);
         padding: 0px 90px;
         text-align: center;
-        font-size: 6em;
+        font-size: 4em;
         font-weight: bold;
     }
     .emp-primera-section p{
         padding: 0px 90px;
         text-align: center;
-        font-size: 3.6em;
+        font-size: 2em;
     }
     .emp-segunda-section{
-        padding: 0px 150px;
+        padding: 0px 250px;
         margin-top: 40vh;
+        display: flex;
+        justify-content: center;
     }
     section .img-soldador{
         background-image: url("../assets/img/soldador4.jpg");
@@ -1519,18 +1571,20 @@ body{
         text-align: center;
         color: var(--color-primario);
         font-weight: bold;
-        font-size: 7.5em;
+        font-size: 6.5em;
     }
     .container-titulo p{
         text-align: center;
-        font-size: 3em;
+        font-size: 2.5em;
+        margin-bottom: 6vh;
     }
     .equipamiento-card{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        padding: 0px 6vh;
         gap: 3vh;
-        margin-left: 6vh;
+        margin-bottom: 5vh;
     }
     .card-text{
         text-align: center;
@@ -1538,36 +1592,39 @@ body{
         font-weight: bold;
     }
     .card{
-        width: 45rem;
+        width: 95rem;
     }
     /* ----------------------FIN EQUIPAMIENTO -------------------------- */
     /* ----------------------COMO LLEGAR -------------------------- */
     .titulo1{
         color: var(--color-primario);
         font-weight: bold;
-        font-size: 6.4em;
+        font-size: 4.4em;
         margin-top: 6vh;
     }
     .titulo2{
         color: var(--color-secundario);
-        font-size: 3.5em;
+        font-size: 2.0em;
         padding: 0px 20px;
         
     }
     .mapa{
         padding: 0px 5px;
         width: 80%;
-        height: 70vh;
-        margin:11vh;
+        height: 60vh;
+        margin:10vh;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
     /* ---------------------- CONTACTO -------------------------- */
     .contacto-titulo-1{
         color: var(--color-primario);
+        margin-top: 9vh;
+        font-size: 3em;
     }
     .contacto-titulo-2{
-        padding: 0vh 4vh;
+        padding: 0vh 30vh;
         color: var(--color-secundario);
+        font-size: 2em;
     }
     form input{
         margin-bottom: 1vh;
