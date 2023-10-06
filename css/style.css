@@ -202,6 +202,40 @@ body{
         padding: 0px 5px;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
+
+    /* ---------------------- CONTACTO -------------------------- */
+    .contacto-titulo-1{
+        color: var(--color-primario);
+    }
+    .contacto-titulo-2{
+        padding: 0vh 4vh;
+        color: var(--color-secundario);
+    }
+    form input{
+        margin-bottom: 1vh;
+
+    }
+    #formulario_{
+        width: 36vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-left: 10vh;
+    }
+ 
+    #comentario{
+        margin-bottom: 1vh;
+    }
+    #btn_enviar{
+        background-color: var(--color-primario);
+        color: white;
+    }
+    
+  
+    
+   
+    /* ----------------------FIN CONTACTO -------------------------- */
     
     
 }
@@ -379,6 +413,39 @@ body{
         height: 45vh;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
+    /* ---------------------- CONTACTO -------------------------- */
+    .contacto-titulo-1{
+        color: var(--color-primario);
+    }
+    .contacto-titulo-2{
+        padding: 0vh 4vh;
+        color: var(--color-secundario);
+    }
+    form input{
+        margin-bottom: 1vh;
+
+    }
+    #formulario_{
+        width: 45vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-left: 10vh;
+    }
+ 
+    #comentario{
+        margin-bottom: 1vh;
+    }
+    #btn_enviar{
+        background-color: var(--color-primario);
+        color: white;
+    }
+    
+  
+    
+   
+    /* ----------------------FIN CONTACTO -------------------------- */
    
 }
 @media (min-width:376px) and (max-width:425px){
@@ -557,6 +624,39 @@ body{
         height: 45vh;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
+    /* ---------------------- CONTACTO -------------------------- */
+    .contacto-titulo-1{
+        color: var(--color-primario);
+    }
+    .contacto-titulo-2{
+        padding: 0vh 4vh;
+        color: var(--color-secundario);
+    }
+    form input{
+        margin-bottom: 1vh;
+
+    }
+    #formulario_{
+        width: 55vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-left: 10vh;
+    }
+ 
+    #comentario{
+        margin-bottom: 1vh;
+    }
+    #btn_enviar{
+        background-color: var(--color-primario);
+        color: white;
+    }
+    
+  
+    
+   
+    /* ----------------------FIN CONTACTO -------------------------- */
     
 }
 @media (min-width:426px) and (max-width:768px){
@@ -756,6 +856,43 @@ body{
         margin:13vh;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
+    /* ---------------------- CONTACTO -------------------------- */
+    .contacto-titulo-1{
+        color: var(--color-primario);
+        font-size: 2.5em;
+    }
+    .contacto-titulo-2{
+        padding: 0vh 4vh;
+        color: var(--color-secundario);
+        font-size: 1.3em;
+        padding: 0px 60px;
+        margin-bottom: 6vh;
+    }
+    form input{
+        margin-bottom: 1vh;
+
+    }
+    #formulario_{
+        width: 57vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-left: 40vh;
+    }
+ 
+    #comentario{
+        margin-bottom: 1vh;
+    }
+    #btn_enviar{
+        background-color: var(--color-primario);
+        color: white;
+    }
+    
+  
+    
+   
+    /* ----------------------FIN CONTACTO -------------------------- */
     
 }
 @media (min-width:769px) and (max-width:1024px){
@@ -948,6 +1085,48 @@ body{
         margin:13vh;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
+    /* ---------------------- CONTACTO -------------------------- */
+    .contacto-titulo-1{
+        color: var(--color-primario);
+        font-size: 3em;
+    }
+    .contacto-titulo-2{
+        padding: 0vh 15vh;
+        color: var(--color-secundario);
+        font-size: 2em;
+        margin-bottom: 10vh;
+    }
+    form input{
+        margin-bottom: 1vh;
+
+    }
+    #formulario_{
+        width: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-left: 40vh;
+    }
+ 
+    #comentario{
+        margin-bottom: 1vh;
+    }
+    #btn_enviar{
+        background-color: var(--color-primario);
+        color: white;
+    }
+    .titulo3{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .titulo4{
+        font-size: 1.4em; 
+    }
+  
+    
+   
+    /* ----------------------FIN CONTACTO -------------------------- */
     
     
 }
@@ -1139,6 +1318,39 @@ body{
         margin:13vh;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
+    /* ---------------------- CONTACTO -------------------------- */
+    .contacto-titulo-1{
+        color: var(--color-primario);
+    }
+    .contacto-titulo-2{
+        padding: 0vh 4vh;
+        color: var(--color-secundario);
+    }
+    form input{
+        margin-bottom: 1vh;
+
+    }
+    #formulario_{
+        width: 36vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-left: 10vh;
+    }
+ 
+    #comentario{
+        margin-bottom: 1vh;
+    }
+    #btn_enviar{
+        background-color: var(--color-primario);
+        color: white;
+    }
+    
+  
+    
+   
+    /* ----------------------FIN CONTACTO -------------------------- */
     
     
 }
@@ -1349,6 +1561,39 @@ body{
         margin:11vh;
     }
     /* ----------------------FIN COMO LLEGAR -------------------------- */
+    /* ---------------------- CONTACTO -------------------------- */
+    .contacto-titulo-1{
+        color: var(--color-primario);
+    }
+    .contacto-titulo-2{
+        padding: 0vh 4vh;
+        color: var(--color-secundario);
+    }
+    form input{
+        margin-bottom: 1vh;
+
+    }
+    #formulario_{
+        width: 36vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-left: 10vh;
+    }
+ 
+    #comentario{
+        margin-bottom: 1vh;
+    }
+    #btn_enviar{
+        background-color: var(--color-primario);
+        color: white;
+    }
+    
+  
+    
+   
+    /* ----------------------FIN CONTACTO -------------------------- */
     
     
 }
